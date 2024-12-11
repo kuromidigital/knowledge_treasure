@@ -10,9 +10,12 @@
 <!-- Set the viewport width to device width for mobile -->
 <meta name="viewport" content="width=device-width"/>
 <title>Studio Francesca</title>
-<!-- Included CSS Files-->
+<!-- WE CALL ALL CSS FILES IN THIS DOC TO HELP YOU START YOUR OWN TEMPLATE FILE-->
 <link rel="stylesheet" href="stylesheets/style.css">
+<link rel="stylesheet" href="stylesheets/nivoslider.css"><!-- nivo slider stylesheet -->
 <link rel="stylesheet" href="stylesheets/homepage.css"><!-- homepage stylesheet -->
+<link rel="stylesheet" href="stylesheets/blog.css"><!-- blog stylesheet -->
+<link rel="stylesheet" href="stylesheets/prettyphoto.css"><!-- for gallery -->
 <link rel="stylesheet" href="stylesheets/skins/teal.css"><!-- skin color -->
 <link rel="stylesheet" href="stylesheets/responsive.css">
 <!-- IE Fix for HTML5 Tags -->
@@ -44,7 +47,7 @@
 				<a href="index.html"><h4>Studio Francesca</h4></a>
 			</div>
 		</div>
-		<div class="eight  columns noleftmarg">		
+		<div class="eight columns noleftmarg">		
 			<nav id="nav-wrap">
 				<ul class="nav-bar sf-menu">
 				
@@ -80,8 +83,7 @@
 					<a href="#">Pages</a>
 						<ul>
 						<li><a href="about.html">About us</a></li>
-						<li><a href="services.html">Services</a></li>
-						
+						<li><a href="services.html">Services</a></li>						
 						</ul>
 					</li>
 					
@@ -106,154 +108,171 @@
 </div>
 <!-- SUBHEADER
 ================================================== -->
-<div id="subheader" class="subheadertext">
+<div id="subheader" class="blogstyle">
 	<div class="row">
-		<div class="twelve columns">
-			<div class="noslide">
-				 <h1>Our Photography Studio</h1>
-				<h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h3>
-			<div class="minipause"></div><br/>
-			<a href="#" class="clear actbutton">Action Button</a>
+		<div class="eight columns">
+			<p class="bread leftalign">
+				 You are here: <a href="index.html"> Home</a> / <a href="columns.html">Columns</a>
+			</p>
+		</div>
+		<div class="four columns">
+			<div class="row collapse">
+				<div class="ten mobile-three columns">
+					<input type="text" class="nomargin" placeholder="Search...">
+				</div>
+				<div class="two mobile-one columns">
+					<a href="#" class="postfix button expand">Go</a>
+				</div>
 			</div>
 		</div>
-	</div>
-</div>
-<!-- ANIMATED COLUMNS 
-================================================== -->
-<div class="row">
-	<div class="twelve columns">
-		<ul class="ca-menu">
-			<li>
-			<a href="#">
-			<span class="ca-icon">F</span>
-			<div class="ca-content">
-				<h2 class="ca-main">Responsive<br/> Design</h2>
-				<h3 class="ca-sub">Across all major devices</h3>
-			</div>
-			</a>
-			</li>
-			<li>
-			<a href="#">
-			<span class="ca-icon">H</span>
-			<div class="ca-content">
-				<h2 class="ca-main">Friendly<br/> Documentation</h2>
-				<h3 class="ca-sub">Straight to the point</h3>
-			</div>
-			</a>
-			</li>
-			<li>
-			<a href="#">
-			<span class="ca-icon">N</span>
-			<div class="ca-content">
-				<h2 class="ca-main">Alternate<br/> Home Pages</h2>
-				<h3 class="ca-sub">Full slider, boxed or none</h3>
-			</div>
-			</a>
-			</li>
-			<li>
-			<a href="#">
-			<span class="ca-icon">K</span>
-			<div class="ca-content">
-				<h2 class="ca-main">Filterable<br/> Portofolio</h2>
-				<h3 class="ca-sub">Isotop & PrettyPhoto</h3>
-			</div>
-			</a>
-			</li>
-		</ul>
-	</div>
-</div>
-<!-- CONTENT 
-================================================== -->
-<div class="row">
-	<div class="twelve columns">
-		<div class="centersectiontitle">
-			<h4>What we do</h4>
-		</div>
-	</div>
-	<div class="four columns">
-		<h5>Photography</h5>
-		<p>
-			 Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.
-		</p>
-		<p>
-			<a href="#" class="readmore">Learn more</a>
-		</p>
-	</div>
-	<div class="four columns">
-		<h5>Artwork</h5>
-		<p>
-			Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.
-		</p>
-		<p>
-			<a href="#" class="readmore">Learn more</a>
-		</p>
-	</div>
-	<div class="four columns">
-		<h5>Logos</h5>
-		<p>
-			 Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.
-		</p>
-		<p>
-			<a href="#" class="readmore">Learn more</a>
-		</p>
 	</div>
 </div>
 <div class="hr">
 </div>
-<!-- CLIENTS 
+<!-- CONTENT 
 ================================================== -->
+<!-- SINGLE COLUMN-->
 <div class="row">
 	<div class="twelve columns">
-		<div class="centersectiontitle">
-			<h4>Clients</h4>
-		</div>
-	</div>
-	<div class="twelve columns">
-		<div class="image_carousel fitcarousel">
-		<div id="foo2">
-				<img src="http://placehold.it/140x140/222" alt="" width="140" height="140"/>
-				<img src="http://placehold.it/140x140/333" alt="" width="140" height="140"/>
-				<img src="http://placehold.it/140x140/222" alt="" width="140" height="140"/>
-				<img src="http://placehold.it/140x140/333" alt="" width="140" height="140"/>
-				<img src="http://placehold.it/140x140/222" alt="" width="140" height="140"/>
-				<img src="http://placehold.it/140x140/333" alt="" width="140" height="140"/>
-				<img src="http://placehold.it/140x140/222" alt="" width="140" height="140"/>
-				<img src="http://placehold.it/140x140/333" alt="" width="140" height="140"/>
-				<img src="http://placehold.it/140x140/222" alt="" width="140" height="140"/>
-				<img src="http://placehold.it/140x140/333" alt="" width="140" height="140"/>
-				<img src="http://placehold.it/140x140/222" alt="" width="140" height="140"/>
-				<img src="http://placehold.it/140x140/333" alt="" width="140" height="140"/>
-			</div>
-			<div class="clearfix">
-			</div>
-			<a class="prev" id="foo2_prev" href="#"><span>prev</span></a>
-			<a class="next" id="foo2_next" href="#"><span>next</span></a>
-		</div>
+		<h5>Single Column</h5>
+		<hr>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum venerunt. Sit enim idem caecus, debilis. Duo Reges: constructio interrete. Contineo me ab exemplis. Rapior illuc, revocat autem Antiochus.Duo Reges: constructio interrete. Contineo me ab exemplis.
+		</p>
 	</div>
 </div>
-<!-- TESTIMONIALS 
-================================================== -->
+<!-- 2 COLUMNS-->
 <div class="row">
 	<div class="twelve columns">
-		<div id="testimonials">
-			<blockquote>
-				<p>
-					 "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. " <cite>&ndash;Martin - NY</cite>
-				</p>
-			</blockquote>
-			<blockquote>
-				<p>
-					 "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." <cite>&ndash;Sandra - LA</cite>
-				</p>
-			</blockquote>
-			<blockquote>
-				<p>
-					 "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." <cite>&ndash;Jason - MA</cite>
-				</p>
-			</blockquote>
-		</div>
-		<!--end testimonials-->
+		<h5>2 Columns Layout</h5>
+		<hr>
 	</div>
+</div>
+<div class="row">
+	<div class="six columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum venerunt. Sit enim idem caecus, debilis. Duo Reges: constructio interrete. Contineo me ab exemplis. Rapior illuc, revocat autem Antiochus.
+		</p>
+	</div>
+	<div class="six columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum venerunt. Sit enim idem caecus, debilis. Duo Reges: constructio interrete. Contineo me ab exemplis. Rapior illuc, revocat autem Antiochus.
+		</p>
+	</div>
+</div>
+<!-- 3 COLUMNS-->
+<div class="row">
+	<div class="twelve columns">
+		<h5>3 Columns Layout</h5>
+		<hr>
+	</div>
+</div>
+<div class="row">
+	<div class="four columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum venerunt. Sit enim idem caecus, debilis. Duo Reges: constructio interrete.
+		</p>
+	</div>
+	<div class="four columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum venerunt. Sit enim idem caecus, debilis. Duo Reges: constructio interrete.
+		</p>
+	</div>
+	<div class="four columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum venerunt. Sit enim idem caecus, debilis. Duo Reges: constructio interrete.
+		</p>
+	</div>
+</div>
+<!-- 4 COLUMNS-->
+<div class="row">
+	<div class="twelve columns">
+		<h5>4 Columns Layout</h5>
+		<hr>
+	</div>
+</div>
+<div class="row">
+	<div class="three columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum venerunt.
+		</p>
+	</div>
+	<div class="three columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum venerunt.
+		</p>
+	</div>
+	<div class="three columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum venerunt.
+		</p>
+	</div>
+	<div class="three columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum venerunt.
+		</p>
+	</div>
+</div>
+<!-- 6 COLUMNS-->
+<div class="row">
+	<div class="twelve columns">
+		<h5>6 Columns Layout</h5>
+		<hr>
+	</div>
+</div>
+<div class="row">
+	<div class="two columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis?
+		</p>
+	</div>
+	<div class="two columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis?
+		</p>
+	</div>
+	<div class="two columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis?
+		</p>
+	</div>
+	<div class="two columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis?
+		</p>
+	</div>
+	<div class="two columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis?
+		</p>
+	</div>
+	<div class="two columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis?
+		</p>
+	</div>
+</div>
+<!-- ONE THIRD AND TWO THIRDS-->
+<div class="row">
+	<div class="twelve columns">
+		<h5>One Third & Two Thirds</h5>
+		<hr>
+	</div>
+</div>
+<div class="row">
+	<div class="four columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Sit enim idem caecus, debilis. Duo Reges: construct.
+		</p>
+	</div>
+	<div class="eight columns">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et non ex maxima parte de tota iudicabis? Item de contrariis, a quibus ad genera formasque generum venerunt. Sit enim idem caecus, debilis. Duo Reges: constructio interrete.
+		</p>
+	</div>
+</div>
+<!-- END EXAMPLES-->
+<div class="hr">
 </div>
 <!-- TWITTER
 ================================================== -->
@@ -322,7 +341,9 @@
 <!-- JAVASCRIPTS 
 ================================================== -->
 <!-- Javascript files placed here for faster loading -->
-<script src="javascripts/foundation.min.js"></script> 
+<script src="javascripts/foundation.min.js"></script>  
+<script src="javascripts/elasticslideshow.js"></script>
+<script src="javascripts/jquery.nivo.slider.pack.js"></script>    
 <script src="javascripts/jquery.carouFredSel-6.0.5-packed.js"></script>
 <script src="javascripts/jquery.cycle.js"></script>
 <script src="javascripts/app.js"></script>

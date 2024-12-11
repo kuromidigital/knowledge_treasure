@@ -12,6 +12,7 @@
 <title>Studio Francesca</title>
 <!-- Included CSS Files-->
 <link rel="stylesheet" href="stylesheets/style.css">
+<link rel="stylesheet" href="stylesheets/prettyphoto.css"><!-- for gallery -->
 <link rel="stylesheet" href="stylesheets/skins/teal.css"><!-- skin color -->
 <link rel="stylesheet" href="stylesheets/responsive.css">
 <!-- IE Fix for HTML5 Tags -->
@@ -107,11 +108,8 @@
 <div id="subheader">
 	<div class="row">
 		<div class="twelve columns">
-			<p class="left">
-				 OUR SERVICES
-			</p>
-			<p class="right">
-				 Request a free quote
+			<p>
+				 PORTOFOLIO Three Columns
 			</p>
 		</div>
 	</div>
@@ -121,94 +119,129 @@
 <!-- CONTENT 
 ================================================== -->
 <div class="row">
-    <!-- MAIN CONTENT-->
-	<div class="eight columns">
-		<div class="sectiontitle">
-			<h4>What we offer</h4>
-		</div>
-		<!-- Services List-->
-		<div class="six columns noleftmargin">			
-			<h5 class="sidebartitle">Service 1</h5>
-			<p>	
-			<img src="images/settings.png" class="pics" alt=""> Duis sit amet risus nunc. Maecenas a elementum urna. Quisque euismod pellentesque sem in feugiat. Mauris nulla urna, euismod sit amet placerat et, adipiscing sit amet nisi. Maecenas libero purus, pulvinar at blandit a, auctor non nulla. Fusce vitae tortor erat
-			</p>
-		</div>
-		<div class="six columns noleftmargin">
-			<h5 class="sidebartitle">Service 2</h5>
-			<p>
-			<img src="images/settings.png" class="pics" alt=""> Duis sit amet risus nunc. Maecenas a elementum urna. Quisque euismod pellentesque sem in feugiat. Mauris nulla urna, euismod sit amet placerat et, adipiscing sit amet nisi. Maecenas libero purus, pulvinar at blandit a, auctor non nulla. Fusce vitae tortor erat.
-			</p>
-		</div>
-		<div class="six columns noleftmargin">
-			<h5 class="sidebartitle">Service 3</h5>
-			<p>
-			<img src="images/settings.png" class="pics" alt=""> Duis sit amet risus nunc. Maecenas a elementum urna. Quisque euismod pellentesque sem in feugiat. Mauris nulla urna, euismod sit amet placerat et, adipiscing sit amet nisi. Maecenas libero purus, pulvinar at blandit a, auctor non nulla. Fusce vitae tortor erat.
-			</p>
-		</div>
-		<div class="six columns noleftmargin">
-			<h5 class="sidebartitle">Service 4</h5>
-			<p>
-			<img src="images/settings.png" class="pics" alt=""> Duis sit amet risus nunc. Maecenas a elementum urna. Quisque euismod pellentesque sem in feugiat. Mauris nulla urna, euismod sit amet placerat et, adipiscing sit amet nisi. Maecenas libero purus, pulvinar at blandit a, auctor non nulla. Fusce vitae tortor erat.
-			</p>
-		</div>
-		<div class="clear">
-		</div>
-		<br/>
-		<div class="panel">
-			<p>
-				<b>Phasellus luctus ante in eros suscipit aliquet. Donec convallis scelerisque tellus, quis vulputate lacus laoreet sed. Mauris vitae ultricies neque. Nullam arcu neque, posuere et accumsan quis, euismod id leo. Donec tristique, nisi vel tincidunt faucibus, velit eros pulvinar leo, in sollicitudin nisi nibh ac arcu.</b>
-			</p>
-		</div>		
-	</div><!-- end main content-->
-	
-    <!-- SIDEBAR-->
-	<div class="four columns">
-	    <!-- Free Quote Form-->
-		<h5>Have a project in mind?</h5>
-		<p>
-			Just provide some preliminary information and a our team will contact you as soon as possible.
-		</p>
-		<div class="done">
-				<div class="alert-box success">
-				 Message has been sent! <a href="" class="close">x</a>
-				</div>
-		</div>
-		<div class="form">
-			<form method="post" action="contact.php" id="contactform">
-				<input type="text" name="name" class="smoothborder" placeholder="Your name *"/>
-				<input type="text" name="email" class="smoothborder" placeholder="E-mail address *"/>
-				<textarea name="comment" class="smoothborder" rows="6" placeholder="Describe your project *"></textarea>
-				<input type="submit" id="submit" class="readmore" value="Submit">
-			</form>
-		</div>
-		<br/>
-		<!-- Accordion-->
-		<ul class="accordion">
-			<li class="active">
-			<div class="title">
-				<b>Don't miss our treats</b>
-			</div>
-			<div class="content accordiontrick">
-				<p>
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-				</p>
-			</div>
-			</li>
-			<li class="">
-			<div class="title">
-				<b>Holiday Services</b>
-			</div>
-			<div class="content accordiontrick">
-				<p>
-					 Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-				</p>
-				<p>
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-				</p>
-			</div>
-			</li>
+	<div class="twelve columns">
+		<!-- CATEGORIES-->
+		<section id="options" class="clearfix">
+		<ul id="filters" class="option-set clearfix" data-option-key="filter">
+			<li><a href="#filter" data-option-value="*" class="portofoliobutton selected">Show all</a></li>
+			<li><a href="#filter" data-option-value=".nature" class="portofoliobutton">Nature</a></li>
+			<li><a href="#filter" data-option-value=".trains" class="portofoliobutton">Trains</a></li>
+			<li><a href="#filter" data-option-value=".castles" class="portofoliobutton">Castles</a></li>
 		</ul>
-	</div><!-- end sidebar-->
+		</section>
+	</div>
+</div>
+<div class="row">
+	<div id="portofolio">
+		<!-- Project 1-->
+		<div class="four columns threeportofolio category trains">
+			<h5>NOSTALGIA</h5>
+			<p>
+				 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid.
+			</p>
+			<div class="portofoliothumb">
+				<div class="portofoliothumboverlay threeoverlay">
+					<div class="viewgallery threegallery">
+						<a data-gal="prettyPhoto[gallery]" href="images/temp/folio1.jpg"><img src="images/playgal.png" class="left galleryicon" alt=""> Gallery</a>
+					</div>
+					<div class="inner threedetail">
+						<a class="projectdetail" href="portofoliodetail.html">+ Project Details</a>
+					</div>
+				</div>
+				<img src="images/temp/folio1.jpg" class="threeimage" alt=""/>
+			</div>
+		</div>
+		<!-- Project 2-->
+		<div class="four columns threeportofolio category castles">
+			<h5>BLUE NIGHT</h5>
+			<p>
+				 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid.
+			</p>
+			<div class="portofoliothumb">
+				<div class="portofoliothumboverlay threeoverlay">
+					<div class="viewgallery threegallery">
+						<a data-gal="prettyPhoto[gallery]" href="images/temp/folio2.jpg"><img src="images/playgal.png" class="left galleryicon" alt=""> Gallery</a>
+					</div>
+					<div class="inner threedetail">
+						<a class="projectdetail" href="portofoliodetail.html">+ Project Details</a>
+					</div>
+				</div>
+				<img src="images/temp/folio2.jpg" class="threeimage" alt=""/>
+			</div>
+		</div>
+		<!-- Project 3-->
+		<div class="four columns threeportofolio category nature">
+			<h5>MEMOIRS</h5>
+			<p>
+				 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid.
+			</p>
+			<div class="portofoliothumb">
+				<div class="portofoliothumboverlay threeoverlay">
+					<div class="viewgallery threegallery">
+						<a data-gal="prettyPhoto[gallery]" href="images/temp/folio3.jpg"><img src="images/playgal.png" class="left galleryicon" alt=""> Gallery</a>
+					</div>
+					<div class="inner threedetail">
+						<a class="projectdetail" href="portofoliodetail.html">+ Project Details</a>
+					</div>
+				</div>
+				<img src="images/temp/folio3.jpg" class="threeimage" alt=""/>
+			</div>
+		</div>
+		<!-- Project 4-->
+		<div class="four columns threeportofolio category nature castles">
+			<h5>OLD CASTLE</h5>
+			<p>
+				 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid.
+			</p>
+			<div class="portofoliothumb">
+				<div class="portofoliothumboverlay threeoverlay">
+					<div class="viewgallery threegallery">
+						<a data-gal="prettyPhoto[gallery]" href="images/temp/folio4.jpg"><img src="images/playgal.png" class="left galleryicon" alt=""> Gallery</a>
+					</div>
+					<div class="inner threedetail">
+						<a class="projectdetail" href="portofoliodetail.html">+ Project Details</a>
+					</div>
+				</div>
+				<img src="images/temp/folio4.jpg" class="threeimage" alt=""/>
+			</div>
+		</div>
+		<!-- Project 5-->
+		<div class="four columns threeportofolio category nature castles">
+			<h5>RED FLOWERS</h5>
+			<p>
+				 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid.
+			</p>
+			<div class="portofoliothumb">
+				<div class="portofoliothumboverlay threeoverlay">
+					<div class="viewgallery threegallery">
+						<a data-gal="prettyPhoto[gallery]" href="images/temp/folio5.jpg"><img src="images/playgal.png" class="left galleryicon" alt=""> Gallery</a>
+					</div>
+					<div class="inner threedetail">
+						<a class="projectdetail" href="portofoliodetail.html">+ Project Details</a>
+					</div>
+				</div>
+				<img src="images/temp/folio5.jpg" class="threeimage" alt=""/>
+			</div>
+		</div>
+		<!-- Project 6-->
+		<div class="four columns threeportofolio category nature">
+			<h5>SHADOW LIGHTS</h5>
+			<p>
+				 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid.
+			</p>
+			<div class="portofoliothumb">
+				<div class="portofoliothumboverlay threeoverlay">
+					<div class="viewgallery threegallery">
+						<a data-gal="prettyPhoto[gallery]" href="images/temp/folio6.jpg"><img src="images/playgal.png" class="left galleryicon" alt=""> Gallery</a>
+					</div>
+					<div class="inner threedetail">
+						<a class="projectdetail" href="portofoliodetail.html">+ Project Details</a>
+					</div>
+				</div>
+				<img src="images/temp/folio6.jpg" class="threeimage" alt=""/>
+			</div>
+		</div>
+	</div>
 </div>
 <div class="hr">
 </div>
@@ -280,7 +313,6 @@
 ================================================== -->
 <!-- Javascript files placed here for faster loading -->
 <script src="javascripts/foundation.min.js"></script>
-<script src="javascripts/formvalidation.js"></script>
 <script src="javascripts/jquery.cycle.js"></script>
 <script src="javascripts/app.js"></script>
 <script src="javascripts/modernizr.foundation.js"></script>
@@ -291,6 +323,9 @@
 <script src="javascripts/responsivemenu.js"></script>
 <script src="javascripts/jquery.tweet.js"></script>
 <script src="javascripts/twitterusername.js"></script>
+<script src="javascripts/jquery.isotope.min.js"></script>
+<script src="javascripts/jquery.prettyPhoto.js"></script>
+<script src="javascripts/custom.js"></script>
 <div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>
